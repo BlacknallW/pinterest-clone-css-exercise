@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    flex-direction: column
+
+}
+
+.gallery img {
+    flex-basis: 274px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    max-width: 320px;
+    position:relative;
+    width: 100%;
+}
